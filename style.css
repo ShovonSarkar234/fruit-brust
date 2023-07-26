@@ -1,0 +1,48 @@
+@media screen and (max-width:576px) {
+    #input {
+        display: none;
+    }
+
+    #logo {
+        position: absolute;
+        left: 320px;
+    }
+
+    #fruit {
+        display: none;
+    }
+
+    #deal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #deal h1,p {
+        display: flex;
+        justify-content: center;
+    }
+
+    #dela-btn {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1000px){
+    #fruit {
+        display: none;
+    }
+
+    #dela-btn {
+        margin-left: 280px;
+    }
+
+    #deal h1,p {
+        display: flex;
+        justify-content: center;
+    }
+
+    #deal {
+        flex-direction: column;
+        align-items: center;
+    }
+}

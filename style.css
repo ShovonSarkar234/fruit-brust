@@ -25,6 +25,15 @@
     #dela-btn {
         margin-left: 150px;
     }
+
+    #f-nav ul{
+        flex-wrap: wrap;
+    }
+
+    #f-icon i{
+        flex-wrap: wrap;
+    }
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 1000px){
